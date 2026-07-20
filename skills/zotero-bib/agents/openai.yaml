@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Bib"
+  short_description: "Search and export Zotero BibTeX entries"
+  default_prompt: "Use $zotero-bib to search my Zotero BibTeX library and export matching references."
