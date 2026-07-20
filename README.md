@@ -58,17 +58,19 @@ python3 skills/zotero-bib/scripts/zotero_bib.py export "rag evaluation" --all
 From a local clone:
 
 ```bash
-npx skills add /home/xubin/Codes/skills_zotero --skill zotero-bib -a codex -y
-npx skills add /home/xubin/Codes/skills_zotero --skill zotero-bib -a claude-code -y
+npx skills add . --skill zotero-bib -a codex -y
+npx skills add . --skill zotero-bib -a claude-code -y
 ```
 
 Install for both agents:
 
 ```bash
-npx skills add /home/xubin/Codes/skills_zotero --skill zotero-bib -a codex -a claude-code -y
+npx skills add . --skill zotero-bib -a codex -a claude-code -y
 ```
 
-After pushing this repo to GitHub, replace the local path with `owner/repo`:
+If you are not running the command from the repository root, replace `.` with the path to your local clone.
+
+After pushing this repo to GitHub, replace `.` with `owner/repo`:
 
 ```bash
 npx skills add owner/repo --skill zotero-bib -a codex -a claude-code -y
