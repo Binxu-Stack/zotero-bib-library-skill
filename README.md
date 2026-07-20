@@ -73,7 +73,7 @@ If you are not running the command from the repository root, replace `.` with th
 After pushing this repo to GitHub, replace `.` with `owner/repo`:
 
 ```bash
-npx skills add Binxu-Stack/zotero-bib-library-skill --skill zotero-bib -a codex -a claude-code -y
+npx skills add Binxu-Stack/zotero-bib-library-skill --skill zotero-bib -g
 ```
 
 Add `--global` if you want the skill available outside the current project.
